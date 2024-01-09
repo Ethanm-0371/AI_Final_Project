@@ -18,9 +18,4 @@ public class TargetToMousePos : MonoBehaviour
             }
         }
     }
-
-    void OnDrawGizmos()
-    {
-        Gizmos.DrawWireSphere(GameObject.Find("Treasure").transform.position, 5f);
-    }
 }
