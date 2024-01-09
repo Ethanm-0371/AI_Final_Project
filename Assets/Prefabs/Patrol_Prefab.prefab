@@ -430,7 +430,7 @@ GameObject:
   - component: {fileID: 6444014756702481810}
   - component: {fileID: 8664802731521909757}
   m_Layer: 0
-  m_Name: Agent_Prefab
+  m_Name: Patrol_Prefab
   m_TagString: Zombie
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -503,7 +503,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   drawGizmos: 0
-  agent: {fileID: 0}
+  agent: {fileID: 6444014756702481810}
   ghost: {fileID: 0}
   waypointsParent: {fileID: 0}
   waypoints: []
