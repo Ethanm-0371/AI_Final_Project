@@ -376,7 +376,7 @@ GameObject:
   - component: {fileID: 6444014756702481810}
   - component: {fileID: 7380325524490012426}
   m_Layer: 0
-  m_Name: Wanderer_Prefab
+  m_Name: Wanderer_Follower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
