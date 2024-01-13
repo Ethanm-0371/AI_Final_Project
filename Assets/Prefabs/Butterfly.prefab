@@ -1,36 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &241067594937822814
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8919263278393099525}
-  m_Layer: 0
-  m_Name: Mesh
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8919263278393099525
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 241067594937822814}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 8288456719657613531}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1078667027118061855
 GameObject:
   m_ObjectHideFlags: 0
@@ -44,7 +13,6 @@ GameObject:
   - component: {fileID: 933033575437929015}
   - component: {fileID: 428703570306591488}
   - component: {fileID: 3175040626386995495}
-  - component: {fileID: 3938571524081002705}
   m_Layer: 0
   m_Name: Wing_R
   m_TagString: Untagged
@@ -3790,20 +3758,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1078667027118061855}
   m_Mesh: {fileID: 0}
---- !u!64 &3938571524081002705
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1078667027118061855}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &1806658927018406896
 GameObject:
   m_ObjectHideFlags: 0
@@ -3900,7 +3854,6 @@ GameObject:
   - component: {fileID: 2920041401876075470}
   - component: {fileID: 842681102442176858}
   - component: {fileID: 7101986808971801443}
-  - component: {fileID: 8186917544996381625}
   m_Layer: 0
   m_Name: Wing_L
   m_TagString: Untagged
@@ -7646,20 +7599,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3345543655878196295}
   m_Mesh: {fileID: 0}
---- !u!64 &8186917544996381625
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3345543655878196295}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &4548538477656706424
 GameObject:
   m_ObjectHideFlags: 0
@@ -7673,7 +7612,6 @@ GameObject:
   - component: {fileID: 4539329629981772446}
   - component: {fileID: 8741481847000000543}
   - component: {fileID: 2721162321894195306}
-  - component: {fileID: 7078624010858850880}
   m_Layer: 0
   m_Name: Antenna_R
   m_TagString: Untagged
@@ -8865,20 +8803,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4548538477656706424}
   m_Mesh: {fileID: 0}
---- !u!64 &7078624010858850880
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4548538477656706424}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &7505190034664235364
 GameObject:
   m_ObjectHideFlags: 0
@@ -8892,7 +8816,6 @@ GameObject:
   - component: {fileID: 2545920347677129806}
   - component: {fileID: 6648836214259020044}
   - component: {fileID: 6093689625412042045}
-  - component: {fileID: 4743123452413136257}
   m_Layer: 0
   m_Name: Antenna_L
   m_TagString: Untagged
@@ -10084,20 +10007,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7505190034664235364}
   m_Mesh: {fileID: 0}
---- !u!64 &4743123452413136257
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7505190034664235364}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &7523739783605015742
 GameObject:
   m_ObjectHideFlags: 0
@@ -10109,7 +10018,7 @@ GameObject:
   - component: {fileID: 6451501911924897834}
   - component: {fileID: 1062738886280158347}
   m_Layer: 0
-  m_Name: Wanderer_Leader
+  m_Name: Butterfly
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10184,7 +10093,6 @@ Transform:
   - {fileID: 7326301908038923090}
   - {fileID: 8736481384393606186}
   - {fileID: 8162481008501029953}
-  - {fileID: 8919263278393099525}
   m_Father: {fileID: 6451501911924897834}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

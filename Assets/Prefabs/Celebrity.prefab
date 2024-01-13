@@ -97,7 +97,6 @@ GameObject:
   - component: {fileID: 3320378498820441581}
   - component: {fileID: 3521565722507057365}
   - component: {fileID: 6625958299085894025}
-  - component: {fileID: 5867383355783899099}
   m_Layer: 0
   m_Name: Hair
   m_TagString: Untagged
@@ -5650,20 +5649,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4483020775327928226}
   m_Mesh: {fileID: 0}
---- !u!64 &5867383355783899099
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4483020775327928226}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &5123878532604259514
 GameObject:
   m_ObjectHideFlags: 0
@@ -5675,7 +5660,6 @@ GameObject:
   - component: {fileID: 6884325171821239643}
   - component: {fileID: 8848893229392425949}
   - component: {fileID: 3892409259163077511}
-  - component: {fileID: 4191912389750027032}
   m_Layer: 0
   m_Name: Mesh_Capsule
   m_TagString: Untagged
@@ -5748,20 +5732,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &4191912389750027032
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5123878532604259514}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5298078694312822891
 GameObject:
   m_ObjectHideFlags: 0
@@ -11588,7 +11558,7 @@ GameObject:
   - component: {fileID: 6444014756702481821}
   - component: {fileID: 6444014756702481810}
   m_Layer: 0
-  m_Name: Perception_Target
+  m_Name: Celebrity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11661,7 +11631,6 @@ GameObject:
   - component: {fileID: 7782052713698673589}
   - component: {fileID: 4878020936830465155}
   - component: {fileID: 7665318657452116518}
-  - component: {fileID: 128974644227317719}
   m_Layer: 0
   m_Name: Pupil
   m_TagString: Untagged
@@ -11734,19 +11703,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!135 &128974644227317719
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8560873368115872740}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8775193749165142941
 GameObject:
   m_ObjectHideFlags: 0
@@ -11758,7 +11714,6 @@ GameObject:
   - component: {fileID: 989440905451397643}
   - component: {fileID: 1777303124423478485}
   - component: {fileID: 4143596543330096539}
-  - component: {fileID: 8117537554677952768}
   m_Layer: 0
   m_Name: Pupil
   m_TagString: Untagged
@@ -11831,16 +11786,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!135 &8117537554677952768
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8775193749165142941}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
