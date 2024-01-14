@@ -1330,14 +1330,14 @@ MonoBehaviour:
   drawSpawnSphere: 0
   drawLimitBox: 0
   drawLeader: 0
-  calculationSleep: 0
-  numFish: 5
-  spawnSpread: 10
+  calculationSleep: 0.3
+  numFish: 100
+  spawnSpread: 2
   fishPrefab: {fileID: 7523739783605015742, guid: 187aa0bde45bb2040bc9f8ed206a841f, type: 3}
   fishArray: []
   leader: {fileID: 1692913856}
-  followLeader: 1
-  leaderAutoMove: 1
+  followLeader: 0
+  leaderAutoMove: 0
   leaderStrength: 100
   swimLimits: {x: 5, y: 3, z: 5}
   maxDistanceToFindNeighbours: 12
