@@ -32,8 +32,8 @@ public class AIVision : MonoBehaviour {
                 ray.origin = ray.GetPoint(frustum.nearClipPlane);
 
                 if (Physics.Raycast(ray,out hit,frustum.farClipPlane,mask)) {
-                    if (hit.collider.gameObject.CompareTag("Peasant")) {
-                        Debug.Log("Peasant found");
+                    if (hit.collider.gameObject.CompareTag("Celebrity")) {
+                        Debug.Log("Celebrity found");
                         foundTarget = true;
                         enmityFound = col.gameObject;
                         gameObject.SendMessageUpwards("ChaseTarget", enmityFound);

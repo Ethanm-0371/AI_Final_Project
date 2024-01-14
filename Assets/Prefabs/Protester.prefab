@@ -4416,6 +4416,7 @@ GameObject:
   - component: {fileID: 6444014756702481822}
   - component: {fileID: 6444014756702481821}
   - component: {fileID: 6444014756702481810}
+  - component: {fileID: 7408796366168093453}
   m_Layer: 0
   m_Name: Protester
   m_TagString: Untagged
@@ -4480,6 +4481,23 @@ NavMeshAgent:
   m_BaseOffset: 1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &7408796366168093453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6444014756702481808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb2324ef1ed96474ea1518afafc17145, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meleeAmount: 0
+  meleePrefab: {fileID: 6444014756702481808, guid: bca13e500a5c92743bcbb2a6e391bd63, type: 3}
+  rangedAmount: 0
+  rangedPrefab: {fileID: 6444014756702481808, guid: 137998bbdac700e4787965a59e4cf688, type: 3}
+  leader: {fileID: 0}
 --- !u!1 &6980007562411887961
 GameObject:
   m_ObjectHideFlags: 0

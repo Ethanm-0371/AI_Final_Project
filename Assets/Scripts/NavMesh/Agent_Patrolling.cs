@@ -6,7 +6,7 @@ using UnityEngine.AI;
 public class Agent_Patrolling :MonoBehaviour {
 
     [SerializeField] bool drawGizmos = false;
-
+    [SerializeField] bool randomStartingPoint = false;
     [SerializeField] NavMeshAgent agent;
     [SerializeField] NavMeshAgent ghost;
     [SerializeField] GameObject waypointsParent;
@@ -55,7 +55,11 @@ public class Agent_Patrolling :MonoBehaviour {
     }
     void StartingPointDir()
     {
-        patrolWP = Random.Range(0, waypoints.Length - 1);
+        if (randomStartingPoint) { 
+            patrolWP = Random.Range(0, waypoints.Length - 1);
+        } else {
+            patrolWP = 0;
+        }
 
         int alea = Random.Range(0, 2);
         if (alea % 2 == 0)
