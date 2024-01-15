@@ -14,7 +14,7 @@ public class BBFindClosestCop : BasePrimitiveAction
 
     public override TaskStatus OnUpdate()
     {
-        var l = GameObject.FindGameObjectsWithTag("Cop").Where(x => !x.GetComponent<TacticsMoves>().found);
+        var l = GameObject.FindGameObjectsWithTag("Gangster").Where(x => !x.GetComponent<TacticsMoves>().found);
         if (l.Count() == 0)
             return TaskStatus.FAILED;
         go = l.First();

@@ -8,6 +8,8 @@ TagManager:
   - Zombie
   - Treasure
   - Policeman
+  - GangZone
+  - Gangster
   layers:
   - Default
   - TransparentFX

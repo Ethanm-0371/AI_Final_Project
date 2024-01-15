@@ -9,8 +9,8 @@ public class IsRobberNear : ConditionBase
 {
     public override bool Check()
     {
-        GameObject robber = GameObject.Find("Tactics_Robber");
-        GameObject treasure = GameObject.Find("Treasure");
+        GameObject robber = GameObject.Find("Nene");
+        GameObject treasure = GameObject.Find("GangZone");
         return Vector3.Distance(robber.transform.position, treasure.transform.position) < 5f;
     }
 }
