@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Celebrity
+  - Zombie
+  - Treasure
+  - Policeman
   layers:
   - Default
   - TransparentFX
