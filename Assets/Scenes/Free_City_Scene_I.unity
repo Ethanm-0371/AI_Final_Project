@@ -1905,7 +1905,7 @@ MonoBehaviour:
   drawLimitBox: 0
   drawLeader: 0
   calculationSleep: 0.3
-  numFish: 100
+  numFish: 8
   spawnSpread: 2
   fishPrefab: {fileID: 7523739783605015742, guid: 187aa0bde45bb2040bc9f8ed206a841f, type: 3}
   fishArray: []
@@ -15514,7 +15514,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841b6ab7c78d3a94ca20913ff41e5ede, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numZombies: 5
+  numZombies: 8
   spawnSpread: 50
   zombieArray: []
   zombiePrefab: {fileID: 6444014756702481808, guid: fceea92063a2d5b42ab94cfa3a3790b0, type: 3}
